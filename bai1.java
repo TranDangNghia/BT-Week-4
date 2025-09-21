@@ -2,19 +2,19 @@ import java.util.Scanner;
 
 public class bai1 {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.print("Nhập một số: ");
-        double so = scanner.nextDouble();
+        System.out.print("nhap mot so: ");
+        double so = sc.nextDouble();
 
         if (so > 0) {
-            System.out.println(so + " là số dương.");
+            System.out.println(so + " la so duong.");
         } else if (so < 0) {
-            System.out.println(so + " là số âm.");
+            System.out.println(so + " la so am.");
         } else {
-            System.out.println("Số nhập vào bằng 0.");
+            System.out.println("So ban nhap la 0.");
         }
 
-        scanner.close();
+        sc.close();
     }
 }
